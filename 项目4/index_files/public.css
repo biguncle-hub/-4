@@ -1,0 +1,60 @@
+@charset "utf-8";
+/*
+* 公共样式,勿删！！！
+*/
+
+/**
+列表复选框样式.
+ */
+#jqgh_jqGrid_cb{
+	text-align:center;
+	margin-bottom: 20px;
+}
+
+.grid-btn .btn {
+	margin-right: 10px;
+	/* background-color: red; */
+	height: 34px;
+}
+/*查询按钮 在class处添上btn-success*/
+
+.btn-success, .btn-success:focus {
+	background-color: #87b87f!important;
+	border-color: #87b87f;
+}
+/*清空按钮*/
+.btn-warning, .btn-warning:focus {
+	background-color: #ffb752!important;
+	border-color: #ffb752;
+}
+/*新增按钮*/
+.btn-info, .btn-info:focus {
+	background-color: #428bca!important;
+	border-color: #428bca;
+}
+
+/*编辑按钮*/
+.btn-yellow, .btn-yellow:focus {
+	background-color: #fee188!important;
+	border-color: #fee188;   
+}
+/*鼠标移动颜色变化*/
+.ui-state-hover{
+	background-color:#FFF8DC!important;
+}
+/*
+.class, .btn{
+	background-color: #87b87f!important;
+
+}*/
+
+
+.menu-text .icon-rank-1{
+	width: auto;
+	height:auto;
+	vertical-align: baseline;
+	background-image: url("../image/rank-1.png");
+	background-position: 0% 0%;
+	background-repeat: no-repeat;
+	margin-top: 0;
+}

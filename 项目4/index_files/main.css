@@ -1,0 +1,99 @@
+html { overflow-x:hidden; }
+.content-header {
+	position: relative;
+	padding: 0 0 3px 8px
+}
+
+.content-header>.breadcrumb {
+    position: relative;
+    top: 0;
+    right: 0;
+    float: none;
+    margin-top: 0px;
+    padding-left: 10px;
+    background: #ecf0f5;
+}
+
+.main-footer {
+    padding: 7px;
+    color: #444;
+    border-top: 1px solid #eee;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+.grid-btn{
+	margin-bottom:12px;
+}
+.grid-btn .btn{
+	margin-right:10px;
+}
+.pointer{cursor: pointer;}
+
+.ml-10 { margin-left:0 !important; }
+@media (min-width: 768px) {
+	.ml-10 { margin-left:10px !important; }
+	.col-sm-10 {width: 45%;padding-left: 0px;}
+	.col-sm-2 {width: 20%;}
+    .col-sm-22{width: 32%;}
+}
+tbody > tr > th {font-weight: normal; }
+.panel .table { margin:0 0; }
+.panel .pagination { margin:0; }
+.panel-default>.panel-heading {background-color: #f5f5f5;}
+.row{
+	border-top: 1px solid #ddd;
+	margin:0;
+	padding:20px 2px 0px 2px;
+}
+.col-xs-6{padding-left: 0px;padding-right: 0px;}
+.form-horizontal .form-group {margin-left:0px;margin-right:0px;}
+.form-horizontal{
+	width:550px;
+    padding-top:20px;
+}
+
+.col-sm-10{
+    position:relative;
+}
+#tipaudio{
+    position:absolute;
+    left:379px;
+    top:0;
+    z-index:999;
+    display:none;
+}
+.audiologo{
+    float:left;
+    width:34px;
+    height:34px;
+    background: url("http://www.icontuku.com/png/webdev-seo/audio13.png") center center no-repeat;
+    position:relative;
+    background-size:66%;
+}
+#closeAudio{
+    position:absolute;
+    display:none;
+    left:0;
+    right:0;
+    width:34px;
+    height:34px;
+    background: url("http://www.icontuku.com/png/small-flat-master/sign-ban-icon.png") center center no-repeat;
+    z-index: 999;
+    opcity:1;
+    background-size:66%;
+}
+.text_red {
+    color: red;
+}
+.has-error .form-control-feedback{
+    color: red;
+}
+.help-block{
+    position: absolute;
+    left: 212px;
+    top: 4px;
+    width: 296px;
+}
